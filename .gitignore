@@ -1,0 +1,26 @@
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore Node modules for Angular
+LChatAppFE/node_modules/
+
+# Ignore Angular build outputs
+LChatAppFE/dist/
+LChatAppFE/build/
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment files
+LChatAppFE/.env
+LChapApp/.env
