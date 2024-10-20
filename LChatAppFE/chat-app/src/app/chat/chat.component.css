@@ -1,0 +1,25 @@
+/* chat.component.css */
+.container {
+  margin-top: 20px;
+}
+
+.messages {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+  .message .sender {
+    font-weight: bold;
+  }
+
+  .message .content {
+    margin-left: 10px;
+  }

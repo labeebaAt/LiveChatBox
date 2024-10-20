@@ -1,0 +1,45 @@
+<div class="container">
+  <h1>Chat Application</h1>
+  <nav>
+    <ul>
+      <li><a routerLink="/register">Register</a></li>
+      <li><a routerLink="/login">Login</a></li>
+      <li><a routerLink="/users">Users</a></li>
+    </ul>
+  </nav>
+
+  <hr />
+
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Optional: Add some basic styles -->
+<style>
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #007bff;
+      }
+
+        nav ul li a:hover {
+          text-decoration: underline;
+        }
+</style>
